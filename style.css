@@ -41,15 +41,10 @@ Bootstrap stuff
 
 body 
 {
-    background: #fff;
-    color: #fff;
     font-family: "Open Sans", sans-serif;
     background-size: cover;
     background-position: 50% 50%;
     background: #6819e8; /* Old browsers */
-    background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 ); /* IE6-9 */
 }
   
@@ -257,8 +252,10 @@ body
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
     background-size: cover;
+    background: -moz-linear-gradient( #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient( #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient( #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   }
   
   #intro .intro-info h2 {
@@ -629,6 +626,9 @@ body
   
   #services {
     padding: 60px 0 40px 0;
+    background: -moz-linear-gradient( #6980f2 0%,#615fde 35%,#7437d0 68%,#6819e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(  #6980f2 0%,#615fde 35%,#7437d0 68%,#6819e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient( #6980f2 0%,#615fde 35%,#7437d0 68%,#6819e8 100%)
   }
   
   #services .box {
@@ -989,11 +989,17 @@ body
   /* Team Section
   --------------------------------*/
   
-  #team {
+  #team 
+  {
+    background: -moz-linear-gradient( #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient( #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient( #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 60px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
-  #team .member {
+  #team .member 
+  {  
     text-align: center;
     margin-bottom: 20px;
     position: relative;
@@ -1060,12 +1066,19 @@ body
   }
   
   #team .member .social a:hover {
-    color: #1CADFF;
+    color: #fff;
   }
   
   #team .member .social i {
     font-size: 18px;
     margin: 0 2px;
+    color: #fff;
+  }
+
+  #social i
+  {
+      color: #fff;
+      font-size: 20px;;
   }
   
   /* Clients Section
@@ -1643,9 +1656,9 @@ body
       background-size: cover;
       background-position: 50% 50%;
       background: #6819e8; /* Old browsers */
-      background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background: -moz-linear-gradient( #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient( #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient( #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 ); /* IE6-9 */
   }
   
@@ -1695,4 +1708,19 @@ body
       background: transparent;
   }
   
-  
+.team-sec{float: left;width: 100%;}
+.team .photo {width: 250px; height: 250px; display: inline-block; overflow: hidden; position: relative; }
+.photo-shadow {position: absolute; z-index: -1; top: 12px; left: 16px; bottom: -10px; border: 1px solid #E3E3E3; height: 250px; width: 246px; background: #fff; }
+.col-item{position: relative;}
+.team{margin-top: 60px;}
+.team .photo img{width: 100%; vertical-align: middle; position: relative;}
+.social-connect{margin-top: 13px;}
+.info{margin-top: 22px;}
+.info .name{font-size: 18px;font-weight: 600;margin-bottom: 2px; color: white;}
+.info .degination{font-size: 16px;font-weight: 300;font-style: italic;color: rgb(255, 255, 255);}
+.social-connect a{ display: inline-block; border: 1px solid #E3E3E3; font-size: 14px; color: #ffffff; width: 24px; height: 24px; text-align: center; line-height: 24px;margin-right: 4px;}
+.social-connect a .fa{margin: 0;}
+.social-connect a:hover{background-color: #4EBEE9;color: #fff;} 
+.carousel-line{    border: 1px solid #ddd; height: 320px; position: absolute; bottom: -90px; width: 110%; left: -5.5%;}
+.carousel-line > .controls{position: absolute; bottom: -16px; left: 50%; margin-left: -50px; background: #fff; padding: 0px 20px; color: #000;}
+.carousel-line > .controls > a{    color: #868686; font-size: 24px; font-weight: 300;}
