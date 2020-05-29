@@ -10,7 +10,7 @@
 {
     z-index: 100;
     top: 50%;
-    left: 50%;
+    left: 47.5%;
     margin-left: -100px;
     margin-top: -100px;
     position: absolute;
@@ -203,8 +203,9 @@ body
   #header.header-pages {
     height: 70px;
     padding: 15px 0;
-    background-color: #fff;
+    background-color: rgb(21, 14, 49);
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+    top: 0%;
   }
   
   #header.header-scrolled #topbar,
@@ -235,7 +236,7 @@ body
     width: 100px;
     z-index: 0;
     position: relative;
-    right: 15%;
+    right: 5%;
   }
 
 
@@ -308,7 +309,7 @@ body
     list-style: none;
     float: right;
     z-index: 10;
-    left: 30%
+    left: 10%
 
   }
   
@@ -1279,12 +1280,18 @@ body
   #footer {
     padding: 0 0 30px 0;
     font-size: 14px;
-    background: #fff;
+    background:  rgb(21, 14, 49);;
   }
   
+  #footer h3 img
+  {
+    height: 80px;
+    width: 175px;
+  }
+
   #footer .footer-top {
     padding: 60px 0 30px 0;
-    background: #f5f8fd;
+    background:  rgb(21, 14, 49);;
   }
   
   #footer .footer-top .footer-info {
@@ -1297,7 +1304,7 @@ body
     padding: 2px 0 2px 0;
     line-height: 1;
     font-family: "Montserrat", sans-serif;
-    color: #413e66;
+    color: #fff;
     font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -1308,7 +1315,7 @@ body
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
-    color: #535074;
+    color: #fff;
   }
   
   #footer .footer-top .social-links a {
@@ -1331,10 +1338,11 @@ body
     color: #fff;
   }
   
-  #footer .footer-top h4 {
+  #footer .footer-top h4 
+  {
     font-size: 14px;
     font-weight: bold;
-    color: #413e66;
+    color: #adacb6;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 10px;
@@ -1370,7 +1378,9 @@ body
     margin-bottom: 30px;
   }
   
-  #footer .footer-top .footer-contact p {
+  #footer .footer-top .footer-contact p 
+  {
+    color: #adacb6;
     line-height: 26px;
   }
   
@@ -1391,7 +1401,7 @@ body
     width: 35%;
     padding: 6px 0;
     text-align: center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.767);
     transition: 0.3s;
     cursor: pointer;
   }
@@ -1405,7 +1415,7 @@ body
   }
   
   #footer .footer-top .form #sendmessage {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.795);
     background: #1CADFF;
     display: none;
     text-align: center;
@@ -1721,6 +1731,6 @@ body
 .social-connect a{ display: inline-block; border: 1px solid #E3E3E3; font-size: 14px; color: #ffffff; width: 24px; height: 24px; text-align: center; line-height: 24px;margin-right: 4px;}
 .social-connect a .fa{margin: 0;}
 .social-connect a:hover{background-color: #4EBEE9;color: #fff;} 
-.carousel-line{    border: 1px solid #ddd; height: 320px; position: absolute; bottom: -90px; width: 110%; left: -5.5%;}
+.carousel-line{    border: 1px solid #ddd; height: 320px; position: absolute; bottom: -90px; width: 90%; left: 6%;}
 .carousel-line > .controls{position: absolute; bottom: -16px; left: 50%; margin-left: -50px; background: #fff; padding: 0px 20px; color: #000;}
 .carousel-line > .controls > a{    color: #868686; font-size: 24px; font-weight: 300;}

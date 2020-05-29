@@ -1,0 +1,25 @@
+{
+  "name": "merge",
+  "version": "1.0.0",
+  "description": "# Instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mergeinc/merge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mergeinc/merge/issues"
+  },
+  "homepage": "https://gitlab.com/mergeinc/merge#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "nodemailer": "^6.4.8"
+  }
+}
