@@ -814,6 +814,18 @@ nav .logo img:hover
     list-style-type: none;
 }
 
+.footer-container .inner-container .left-container .links ul a
+{
+    text-decoration: none;
+
+}
+
+.footer-container .inner-container .left-container .links ul a:hover
+{
+    color: #8245D8;   
+}
+
+
 .footer-container .inner-container .left-container .email-sub
 {
     display: flex;
