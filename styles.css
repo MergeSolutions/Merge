@@ -318,6 +318,11 @@ nav .logo img:hover
     border: 1px solid #505050;
 }
 
+.service-container .wrapper .row
+{
+    display: none;
+}
+
 .service-container .wrapper .grid-container .grid-cloud
 {
     position: absolute;
@@ -1636,311 +1641,280 @@ button[type='button']
 
 @media screen and (max-width: 470px) 
 {
-    .service-container .wrapper .grid-container .grid-cloud
+    .service-container
     {
-        position: absolute;
-        width: 192px;
-        height: 160px;
+        margin-top: -40%;
+    }
+
+    .service-container .wrapper .grid-container 
+    {
+        display: none;
+    }
+
+    .service-container .wrapper h2
+    {
+        font-size: 20px;
+        margin-top: -8%;
+        margin-bottom: 5%;
+    }
+
+    .service-container .wrapper .row
+    {
+        /* display: flex; */
+        display: flex;
+        margin-left: 1%;
+    }
+
+    .service-container .wrapper .row .column
+    {
+        float: left;
+    }
+
+    .service-container .wrapper .row .column .grid-cloud
+    {
+        width: 202px;
+        height: 170px;
         text-align: center;
         align-items: center;
         /* background: linear-gradient(158.07deg, #FFFFFF 14.35%, rgba(255, 255, 255, 0) 57.97%); */
         background-image: url(img/cloud.svg);
         background-repeat: no-repeat;
-        margin-left: 99.3%;
-        margin-top: -118.3%;
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+
+    .service-container .wrapper .row .column .grid-cloud h1
+    {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 32px;
+        align-items: center;
+        text-align: center;
+        font-feature-settings: 'kern' off;
+        padding-bottom: -8.5%;
+        color: #5B0A9A;
+    }
+
+    .service-container .wrapper .row .column .grid-cloud p
+    {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        font-feature-settings: 'kern' off;
+
+        color: #000000;
+
+    }
+
+    .service-container .wrapper .row .column .grid-bluetooth
+    {
+        width: 202px;
+        height: 170px;
+        text-align: center;
+        align-items: center;
+        /* background: linear-gradient(158.07deg, #FFFFFF 14.35%, rgba(255, 255, 255, 0) 57.97%); */
+        background-image: url(img/bluetooth.svg);
+        background-repeat: no-repeat;
+        border-bottom: 1px solid gray;
+        border-left: 1px solid gray;
+    }
+
+    .service-container .wrapper .row .column .grid-bluetooth h1
+    {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 32px;
+        align-items: center;
+        text-align: center;
+        font-feature-settings: 'kern' off;
+        padding-bottom: -8.5%;
+        color: #5B0A9A;
+    }
+
+    .service-container .wrapper .row .column .grid-bluetooth p
+    {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        font-feature-settings: 'kern' off;
+
+        color: #000000;
+
+    }
+    .service-container .wrapper .row .column .grid-web
+    {
+        width: 202px;
+        height: 170px;
+        text-align: center;
+        align-items: center;
+        /* background: linear-gradient(158.07deg, #FFFFFF 14.35%, rgba(255, 255, 255, 0) 57.97%); */
+        background-image: url(img/webDesign.svg);
+        background-repeat: no-repeat;
         border-top: 1px solid gray;
         border-right: 1px solid gray;
     }
 
-    .service-container .wrapper .grid-container .grid-cloud h1
+    .service-container .wrapper .row .column .grid-web h1
     {
-        /* Header 2 */
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 32px;
         align-items: center;
         text-align: center;
         font-feature-settings: 'kern' off;
-        padding-bottom: 6.5%;
+        padding-bottom: -8.5%;
         color: #5B0A9A;
-
-        /* Text Shadow */
-
-        text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-
     }
 
-    .service-container .wrapper .grid-container .grid-cloud p
+    .service-container .wrapper .row .column .grid-web p
     {
-
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
         text-align: center;
         font-feature-settings: 'kern' off;
 
         color: #000000;
-    }
-
-
-    .service-container .wrapper .grid-container .grid-bluetooth
-    {
-        position: absolute;
-        width: 192px;
-        height: 160px;
-        text-align: center;
-        align-items: center;
-        background-image: url(img/bluetooth.svg);
-        background-repeat: no-repeat;
-        background-size: 45%;
-        background-position: center top;
-        border-bottom: 1px solid gray;
-        border-right: 1px solid gray;
-        margin-left: -2%;
-        margin-top: -203%;
 
     }
 
-    .service-container .wrapper .grid-container .grid-bluetooth h1
+    .service-container .wrapper .row .column .grid-smart
     {
-        /* Header 2 */
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 32px;
-        align-items: center;
-        text-align: center;
-        font-feature-settings: 'kern' off;
-        padding-bottom: 6.5%;
-        color: #5B0A9A;
-
-        /* Text Shadow */
-
-        text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-
-    }
-
-    .service-container .wrapper .grid-container .grid-bluetooth p
-    {
-
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 20px;
-        text-align: center;
-        font-feature-settings: 'kern' off;
-
-        color: #000000;
-    }
-
-
-
-    .service-container .wrapper .grid-container .grid-web
-    {
-        position: absolute;
-        width: 192px;
-        height: 160px;
-        top: 20%;
-        text-align: center;
-        align-items: center;
-        background-image: url(img/webDesign.svg);
-        background-repeat: no-repeat;
-        background-size: 70%;
-        margin-left: -49.8%;
-        margin-top: 98.6%;
-        border-bottom: 1px solid gray;
-        border-left: 1px solid gray;;
-    }
-
-    .service-container .wrapper .grid-container .grid-web h1
-    {
-        /* Header 2 */
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 32px;
-        align-items: center;
-        text-align: center;
-        font-feature-settings: 'kern' off;
-        padding-bottom: 6.5%;
-        color: #5B0A9A;
-
-        /* Text Shadow */
-
-        text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-
-    }
-
-    .service-container .wrapper .grid-container .grid-web p
-    {
-
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 20px;
-        text-align: center;
-        font-feature-settings: 'kern' off;
-
-        color: #000000;
-    }
-
-    .service-container .wrapper .grid-container .grid-smart
-    {
-        position: absolute;
-        top: 20%;
-        width: 192px;
-        height: 160px;
+        width: 202px;
+        height: 170px;
         text-align: center;
         align-items: center;
         /* background: linear-gradient(158.07deg, #FFFFFF 14.35%, rgba(255, 255, 255, 0) 57.97%); */
         background-image: url(img/Smart.svg);
         background-repeat: no-repeat;
-        background-position: center top;
-        margin-left: 150.4%;
-        margin-top: 183.5%;
         border-top: 1px solid gray;
         border-left: 1px solid gray;
     }
 
-    .service-container .wrapper .grid-container .grid-smart h1
+    .service-container .wrapper .row .column .grid-smart h1
     {
-        /* Header 2 */
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 32px;
         align-items: center;
         text-align: center;
         font-feature-settings: 'kern' off;
-        padding-bottom: 7.5%;
+        padding-bottom: -8.5%;
         color: #5B0A9A;
-
-        /* Text Shadow */
-
-        text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-
     }
 
-    .service-container .wrapper .grid-container .grid-smart p
+    .service-container .wrapper .row .column .grid-smart p
     {
-
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
         text-align: center;
         font-feature-settings: 'kern' off;
 
         color: #000000;
+
     }
 
-    .service-container .wrapper .grid-container .grid-analytics
+    .service-container .wrapper .row .column .grid-analytics
     {
-        position: absolute;
-        width: 192px;
-        height: 160px;
+        width: 202px;
+        height: 170px;
         text-align: center;
         align-items: center;
-        margin-left: -2%;
-        margin-top: -234%;
+        /* background: linear-gradient(158.07deg, #FFFFFF 14.35%, rgba(255, 255, 255, 0) 57.97%); */
+        background-image: url(img/webDesign.svg);
+        background-repeat: no-repeat;
         border-top: 1px solid gray;
         border-right: 1px solid gray;
-
     }
 
-    .service-container .wrapper .grid-container .grid-analytics h1
+    .service-container .wrapper .row .column .grid-analytics h1
     {
-        /* Header 2 */
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 32px;
         align-items: center;
         text-align: center;
         font-feature-settings: 'kern' off;
-        padding-bottom: 6.5%;
+        padding-bottom: -8.5%;
         color: #5B0A9A;
-
-        /* Text Shadow */
-
-        text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-
     }
 
-    .service-container .wrapper .grid-container .grid-analytics p
+    .service-container .wrapper .row .column .grid-analytics p
     {
-
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
         text-align: center;
         font-feature-settings: 'kern' off;
 
         color: #000000;
+
     }
 
-    .service-container .wrapper .grid-container .grid-community
+    .service-container .wrapper .row .column .grid-community
     {
-        position: absolute;
-        width: 192px;
-        height: 160px;
-        top: 20%;
+        width: 202px;
+        height: 170px;
         text-align: center;
         align-items: center;
+        /* background: linear-gradient(158.07deg, #FFFFFF 14.35%, rgba(255, 255, 255, 0) 57.97%); */
         background-image: url(img/Community.svg);
         background-repeat: no-repeat;
-        background-position: center top;
-        margin-left: -49.7%;
-        margin-top: 141%;
         border-top: 1px solid gray;
-        border-left: 1px solid gray;
+        border-right: 1px solid gray;
     }
 
-    .service-container .wrapper .grid-container .grid-community h1
+    .service-container .wrapper .row .column .grid-community h1
     {
-        /* Header 2 */
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 32px;
         align-items: center;
         text-align: center;
         font-feature-settings: 'kern' off;
-        padding-bottom: 6.5%;
+        padding-bottom: -8.5%;
         color: #5B0A9A;
-
-        /* Text Shadow */
-
-        text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-
     }
 
-    .service-container .wrapper .grid-container .grid-community p
+    .service-container .wrapper .row .column .grid-community p
     {
-
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
         text-align: center;
         font-feature-settings: 'kern' off;
 
         color: #000000;
+
     }
 
+
+    
 }
